@@ -1,0 +1,22 @@
+E such lines should result an error, but I use them for comments!
+Open Chee
+Login 1000
+E Testing if your code knows how accepts a double input:
+Deposit 100.00
+D 50
+Balance
+Open Fred
+L 1001
+Deposit 999
+L 1000
+W 5
+B
+Q
+E Try to get balance after quitting:
+B
+L 1001
+W 99
+B 
+T
+
+

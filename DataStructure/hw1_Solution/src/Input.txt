@@ -1,0 +1,20 @@
+Open Chee
+Login 1000
+Deposit 100
+D 50
+Balance
+Quit
+Open Fred
+L 1001
+Deposit 999
+L 1000
+W 5
+B
+Q
+L 1001
+W 99
+B 
+Q
+T
+
+

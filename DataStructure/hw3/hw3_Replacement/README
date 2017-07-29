@@ -1,0 +1,35 @@
+README file for hw3_Yap
+
+Please use this as the model for each of your Homework README file.
+
+     (1) Name: Your name here
+     (2) NYU N-number: N-XXXXYYYY
+     (3) Integrity Statement:
+     		"I have done this work myself.  Electronically Signed: [your name]" 
+
+     (4) Acknowledgements: Describe any resources you have used besides the text book,
+     		name any one you have discussed this homework with.
+		If there is nothing is acknowledge, say "Nothing to acknowledge".
+
+     (5) Other Information: Say anything else you like us to know.
+
+
+(1) Name: Chee Yap
+
+(2) NYU N-number: N-123456789
+
+(3) Integrity Statement:
+	I needed help with the file handling in Java, so I talked
+	to Fred who shared the method ReadFile() in ATM.java
+	with me.  The rest of the code is work I did myself.
+
+	-- Electronically Signed: Chee Yap
+
+(4) Acknowledgements: 
+	I have no other acknowlegements.  
+
+(5) Any other comments or information you like us to know.
+
+	The trick for specifying command line arguments from 
+	the Makefie is really cool!  
+

@@ -1,0 +1,21 @@
+Notes:
+
+We gave AbstractZoombinis.java to the class for Hw2.
+	They are to write Zoombinis.java to extend this "abstract" class.
+
+AbstractZoombinis2.java  and Zoombinis2.java
+	is an alternative design (with static variables)
+	But we still need an instance of Zoombinis2 to get
+	to the methods!
+
+	REASON: static methods are not allowed to be abstract!
+
+		Solution?  Provided NON-ABSTRACT static methods
+		(so, you need to return a value in an default implementation)
+		That is our third design...
+
+AbstractZoombinis3.java  and Zoombinis3.java
+	is perhaps the best alternative design
+	(with static variables and static methods)
+	But now, the AbstractZoombinis3 class is
+	not at all abstract!

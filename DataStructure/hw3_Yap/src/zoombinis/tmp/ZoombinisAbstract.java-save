@@ -1,0 +1,21 @@
+// ZoombinisAbstract.java
+//
+//	In this design, we used static variables AND static methods.
+//	BUT these methods non-abstract.
+//
+package zoombinis;
+
+import java.util.Random;
+
+public abstract class ZoombinisAbstract {
+ 	static int nn, ss, mm;
+ 	static String path;
+ 	static Random rg; // must import java.util.Random
+
+ 	static String randomVowel () { return "a"; }
+ 	static String randomConsonant() { return "b"; }
+ 	static String randomSyllable() { return "ba"; }
+ 	static public String randomName()  {return "baba"; }
+ 	public static void main(String[] args) { }
+}//class
+

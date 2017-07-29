@@ -1,0 +1,118 @@
+// Classes:
+
+// CashAbstract
+//		theBook: ArrayList<Account> st
+//		theClients: ArrayList<Client> st
+//		currentTime: int st
+//		password: int st = 314159
+//		Mode: enum(USER_MODE, SUPERUSER_MODE, FREE_MODE)
+//		currentMode: Mode st
+//		loggedinAccount: Account st = null
+//
+//		main:
+//			stdInScanner: Scanner			
+//			clearFlag: int = 1
+//			myCash: Cash
+//			switch(clearFlag)		
+//			loopFlag: boolean = true
+//			while(loopFlag)
+// 			*	currentLine: String[] - cL
+//			*	if(cL>10)
+//			*	*	currentTime++
+//			*	*	lF = myCash.processCommand(cL)
+//
+//		methods:
+//			initClients(): void
+//			initAccounts(): void
+//			processCommand(String[]): boolean
+//			saveData(): void
+
+
+https://docs.google.com/drawings/d/1VtCqM9DV3p4jIJwHaDoF9IQ2mx8ron8TmSPNKm0th2w/edit
+
+// Account
+//		nextAccNo: int st = 1000
+//		type: int = 0
+//		accountNo: int
+//		balance: double
+//		owner: Client
+//
+//		Constructor(): balance = 0.0 
+//					   accountNo = nextAcctNo++
+//				OWNER--> at a higher level 
+//						--> I believe in theClients before 
+//							theClients.txt is initialized 
+//							and after that in theClients.txt
+//							to theClients every time the shell
+//							is initialized
+//
+//		Methods:
+//			deposit(double): void balance += amount
+//			withdraw(double): boolean balance -= amount 
+//			print(): void
+
+// Client
+//		nextClientNo: int st = 1
+//		clientNo: int
+//		name: String
+//		allAccounts: ArrayList<Account>
+//
+//		Constructor(String): clientNo = nextClientNo++
+//							 name = c
+
+// SavingAccount 	--> sub Account Type 2
+//		rate: double st = 10.0
+//		lastUpdate: int
+//
+//		Constructor(int now): super()
+//							  this.type = 2;
+//							  lastUpdate = now;
+//		
+//		Methods:
+//			withdraw(double amount): boolean
+//				if (balance >= amount) 
+//				*	super.withdraw(amount)
+//				*	return true
+//			return false
+//			
+//			updateBal(int now): void
+//				super.deposit(bal*(now-lU)*rate/100.0)
+//				lastUpdate = now
+
+//	PlusAccount  --> sub Account Type 1
+//		rate: double st = 25
+//		penalty: double st = 100.0
+//		lastUpdate: int
+//		
+//		Constructor(int now): super()
+//							  this.type = 1
+//							  lastUpdate = now
+//		
+//		Methods:
+//			deposit(double amount, int now): void 
+//											 updateBal(now)
+//											 super.deposit(amount)
+//			
+//			withdraw(double amount, int now): boolean
+//					updateBalance(now);
+//					oldBal: double = this.balance;
+//					super.withdraw(amount)
+//					if (bal<0 && oldBal >= 0)
+//						super.withdraw(PlusAccount.penalty)
+//					return true
+//			
+//			updateBal(int now): void
+//				if(bal<0)
+//					super.withdraw(0.0 - balance*(now-lastUpdate)*rate/100.0)
+//				lastUpdate = now
+
+
+
+
+
+
+
+
+
+
+							 				

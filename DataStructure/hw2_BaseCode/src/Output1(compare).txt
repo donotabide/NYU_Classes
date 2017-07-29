@@ -1,0 +1,19 @@
+>> ATM at your service!
+>>>  NOTE: Old clients but new accounts!
+#1000
+Hello Chee!
+-1110.0
+-1.11
+=-1892.01
+Goodbye Chee!
+#1001
+Hello Fred!
++9999.99
+-1111.0
+=12444.59
+Goodbye Fred!
+Now in SUPERUSER mode.
+1 Chee; 2 Fred; 
+Plus Accounts: #1000 
+Savings Accounts: #1001 
+ATM shutting down!

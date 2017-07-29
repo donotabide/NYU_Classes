@@ -1,0 +1,32 @@
+// DS Lecture 09/15
+
+// File Hierarchy and Paths
+
+// Config terminal
+ 
+	sh, csh, tcsh, ksh, bash
+	
+	ls, pwd, cd
+	
+	mkdir, mv, rmdir, rm, ln
+	pushd, popd
+	echo
+	
+	touch // Create file
+	
+	
+// Check
+	java.util.ArrayList;
+	java.util.HashTable;
+	java.util.PriorityQueue;
+	
+	//Or 
+	import java.util.*;
+		
+	// How to create your own packages
+	
+	// What does new do?
+	
+	// Garbage
+	
+	

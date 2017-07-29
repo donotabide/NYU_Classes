@@ -1,0 +1,48 @@
+// Recitation 09/14
+
+Makefile
+
+Make targets: define arguments
+
+// Dependence
+default: jc 
+
+
+jc javac c compile:
+		test
+		
+j java r run: java -classpath . src/hw1/ ATM 1111 16 2
+
+
+// Java Subtyping and Dynamic Dispatch
+
+class vehicle {
+	void move(int x, int y){...}
+}
+
+class car extends vehicle{
+	void move(int x, int y){...}
+}
+
+// in program
+			vehicle v = new vehicle();
+			v.move(100, 200);
+			car c = new car();
+			c.move(50,70);
+			
+			void f(vehicle q){
+				q.move(20, 50);
+			}
+			
+// if f(c)
+	the method in car will override vehicle
+	
+// Subtype means q could be a vehicle or car
+// Dynamic dispatch means that which move method is called determined by the dynamic type of q
+
+*// Check command super
+
+// myAccount could extend from Account class
+
+// Learn how to write on Makefile and have the commands executed automatically
+

@@ -1,0 +1,46 @@
+>> ATM at your service!
+>>>  NOTE: Old clients but new accounts!
+#1000
+Hello Chee!
+-1110.0
+-1.11
+=-1892.01
+Goodbye Chee!
+#1001
+Hello Fred!
++9999.99
+-1111.0
+=12444.59
+Goodbye Fred!
+#1002
+Hello Chee!
++666666.0
+-111111.0
+Goodbye Chee!
+For Help, call 1-800-102-0007
+For Help, call 1-800-102-0007
+For Help, call 1-800-102-0007
+For Help, call 1-800-102-0007
+#1003
+Hello Chee!
++54321.0
+=54321.00
+Goodbye Chee!
+#1004
+Hello Fred!
+-1234567.0
+=-1543333.75
+Goodbye Fred!
+Hello Fred!
+#1001 #1004 
+=41067.13
+Goodbye Fred!
+Hello Chee!
+#1000 #1002 #1003 
+=-17501.12
+Goodbye Chee!
+Now in SUPERUSER mode.
+1 Chee; 2 Fred; 
+Plus Accounts: #1000 #1003 #1004 
+Savings Accounts: #1001 #1002 
+ATM shutting down!

@@ -1,0 +1,85 @@
+Lecture 0922
+
+
+More on Shell
+Shell scripts (plain text files)
+First line in script is #!/bin/bash
+DEMO – ssh to my Courant Account
+E.g., scp2 – copy files to my Courant Account (say ”zzz”)
+E.g., scp4 – copy files from my Courant Account (say ”xxx”)
+Next...
+Hw2
+Makefiles + Shell
+[Start] [End]
+II
+Makefiles + Shell
+Targets and Actions
+Study sample Makefile:
+* A Makefile is a plain text file
+* Comment character is #
+– the comment character and rest of line is ignored
+Targets and Actions
+Basic terms:
+targets, actions
+Target lines has (at least) one target name followed by a colon
+‘:’
+– Following the target line are zero or more action
+– After colon, there is an optional list of dependencies
+– Names on the same target line are alternatives lines.
+Targets and Actions
+How to call a target?
+* Assume the Makefile in the current directory has a
+target called compile
+* You type on your Terminal the command
+
+make compile
+* All the actions of compile will be executed!
+Dependencies
+They can be target names or file names!
+E.g., you can have a target like this:
+ATM.class: ATM.java
+Need a target called ATM.java!
+
+
+
+Variables
+		Assignment statements
+		variableName = value
+	E.g.,
+		n=123
+		args=”1 two 3”
+		//
+			-in Makefile-
+			no=2 
+			--
+			package = hw$(no)/
+			** $ stands for value
+			
+			main1: Cash
+		//
+		
+		//	Overrides the make file commands
+			make run no=1
+		//
+	Delayed recursive evaluation:
+		args=$(args)
+		args=”1 two 3”
+		@echo $(args) — what does it show?
+	* SO, do not write: args=$(arg1) $(args)
+
+Variables
+	Overriding the variable assignment at the terminal
+	– E.g.,	>>	make run n=456
+	
+	– One of the main tricks we exploit to do testing
+	
+	
+Dependencies, conditionals
+	They can be target names or file names!
+		– they are placed right after the colon
+		– non-file targets are called pseudo targets
+
+
+
+
+
